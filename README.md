@@ -31,12 +31,17 @@ This repository is a minimal example of using the DataDoe MCP server from Cursor
    git clone https://github.com/Deltologic/datadoe-mcp-cursor
    cd datadoe-mcp-cursor
    ```
-2. Create `.env` in the repo root:
-   - `DATADOE_MCP_KEY=your_key_here`
-3. Keep `.cursor/mcp.json` configured with:
-   - `"datadoe-mcp-key": "${DATADOE_MCP_KEY}"`
-4. Restart Cursor (or reload window) so environment variables are loaded.
-5. Open Cursor chat and ask an Amazon-related question.
+2. Open `.cursor/mcp.json` and set your key directly in headers:
+   - `"datadoe-mcp-key": "your_key_here"`
+3. Restart Cursor (or reload window) so the updated MCP configuration is loaded.
+4. Open Cursor chat and ask an Amazon-related question.
+
+> [!CAUTION]
+> Treat `DATADOE_MCP_KEY` like a password. Do not publish repositories, screenshots, or logs that contain this key.
+> If a key is exposed, rotate it immediately.
+
+Cursor currently does not support injecting `DATADOE_MCP_KEY` from `.env` into `.cursor/mcp.json` for this setup.
+Our target setup is to keep the key in `.env` and reference it from `.cursor/mcp.json` once that behavior is supported.
 
 ## How to get a DataDoe subscription
 
