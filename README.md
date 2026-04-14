@@ -43,10 +43,16 @@ This repository is a minimal example of using the DataDoe MCP server from Cursor
 Cursor currently does not support injecting `DATADOE_MCP_KEY` from `.env` into `.cursor/mcp.json` for this setup.
 Our target setup is to keep the key in `.env` and reference it from `.cursor/mcp.json` once that behavior is supported.
 
-## How to get a DataDoe subscription
+## How to get a DataDoe subscription and get MCP Key
 
-- For subscription and access details, contact DataDoe support.
-- Ask for MCP access and your `DATADOE_MCP_KEY`.
+1. Go to [app.datadoe.com](https://app.datadoe.com).
+2. Create an account.
+3. Purchase a subscription.
+4. Accept the Terms and Conditions and Privacy Policy.
+5. Go to the `Integrations` module.
+6. Click the `MCP` tile (this navigates to `/integrations/mcp`).
+7. Click `MCP Key`, then add a name and expiration date, and click `Create`.
+8. Copy the key and store it in a secure secret manager or another safe location.
 
 ## How to get help
 
