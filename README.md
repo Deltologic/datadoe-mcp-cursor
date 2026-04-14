@@ -2,6 +2,22 @@
 
 This repository is a minimal example of using the DataDoe MCP server from Cursor IDE for Amazon-focused workflows.
 
+## Table of contents
+
+- [What you can do with this repo](#what-you-can-do-with-this-repo)
+- [What this repo is](#what-this-repo-is)
+- [How to start working with it](#how-to-start-working-with-it)
+- [How to get a DataDoe subscription](#how-to-get-a-datadoe-subscription)
+- [How to get help](#how-to-get-help)
+- [Recommended repository cleanup](#recommended-repository-cleanup)
+- [Tags](#tags)
+
+## What you can do with this repo
+
+- Connect Cursor chat to DataDoe MCP in a secure way.
+- Ask Amazon seller questions using DataDoe-backed data.
+- Reuse this setup as a template for new Amazon-focused assistant projects.
+
 ## What this repo is
 
 - A starter setup for connecting Cursor to DataDoe MCP.
@@ -40,3 +56,7 @@ For each repository using this template, keep settings lean:
 - Disable Discussions if not used.
 - Keep branch protection minimal but enabled for your main branch.
 - Do not commit `.env` or real API keys.
+
+## Tags
+
+`DataDoe` `MCP` `Cursor` `Amazon` `Amazon Seller` `AI Assistant` `LLM` `Prompting`
