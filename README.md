@@ -6,7 +6,7 @@ This repository is a minimal example of using the DataDoe MCP server from Cursor
 
 - [What you can do with this repo](#what-you-can-do-with-this-repo)
 - [What This Repo Includes](#what-this-repo-includes)
-- [How to get a DataDoe subscription](#how-to-get-a-datadoe-subscription)
+- [How to get a DataDoe subscription and get MCP Key](#how-to-get-a-datadoe-subscription-and-get-mcp-key)
 - [How to start working with it](#how-to-start-working-with-it)
 - [Example prompt library starter pack](#example-prompt-library-starter-pack)
 - [How to get help](#how-to-get-help)
