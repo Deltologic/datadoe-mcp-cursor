@@ -7,6 +7,7 @@ This repository is a minimal example of using the DataDoe MCP server from Cursor
 - [What you can do with this repo](#what-you-can-do-with-this-repo)
 - [What this repo is](#what-this-repo-is)
 - [How to start working with it](#how-to-start-working-with-it)
+- [Example prompt library starter pack](#example-prompt-library-starter-pack)
 - [How to get a DataDoe subscription](#how-to-get-a-datadoe-subscription)
 - [How to get help](#how-to-get-help)
 - [Recommended repository cleanup](#recommended-repository-cleanup)
@@ -42,6 +43,19 @@ This repository is a minimal example of using the DataDoe MCP server from Cursor
 
 Cursor currently does not support injecting `DATADOE_MCP_KEY` from `.env` into `.cursor/mcp.json` for this setup.
 Our target setup is to keep the key in `.env` and reference it from `.cursor/mcp.json` once that behavior is supported.
+
+## Example prompt library starter pack
+
+To help you start faster with an AI Agent + DataDoe MCP workflow, this repo includes a small prompt library at:
+
+- `.cursor/prompts/EXAMPLES.md`
+
+Use it as a starter pack:
+
+1. Open `.cursor/prompts/EXAMPLES.md`.
+2. Copy a prompt block and adjust placeholders (for example `{{seller_name}}`) to your account context.
+3. Run the prompt in Cursor chat with DataDoe MCP enabled.
+4. Save your own high-performing prompts in the same file to build a reusable internal playbook.
 
 ## How to get a DataDoe subscription and get MCP Key
 
